@@ -6,7 +6,6 @@ def turn_count(board)
   #  if turn == "X" || turn == "O"
     counter += 1
  end
- end
 
 
 def current_player(board)
@@ -14,4 +13,5 @@ def current_player(board)
     "X"
   else
     "O"
+ end
  end
